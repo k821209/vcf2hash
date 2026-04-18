@@ -1,0 +1,1 @@
+parallel -j 5 "python vcf2hash.py --fasta ../data/glyma.Wm82.gnm2.DTC4.genome_main.fna --vcf {1} --gff3 ../data/glyma.Wm82.gnm2.ann1.RVB6.gene_models_main.gff3.gz --out {1}.tsv --tsv" ::: ../vcf_dones/*.gz
