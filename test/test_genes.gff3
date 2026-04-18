@@ -1,0 +1,6 @@
+##gff-version 3
+Chr1	test	gene	1	100	.	+	.	ID=GeneA
+Chr1	test	gene	101	200	.	+	.	ID=GeneB
+Chr1	test	gene	201	300	.	-	.	ID=GeneC
+Chr2	test	gene	1	100	.	+	.	ID=GeneD
+Chr2	test	gene	101	200	.	-	.	ID=GeneE
